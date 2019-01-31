@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Project FileName="TRex_Grimaldi_RevE_30112018_V190nl.p1x">
+	<FileFormat>006B</FileFormat>
+	<GUIVersion>10.0.8.36</GUIVersion>
+	<ProgrammableHW PartNumber="11130954" Description="MC050-110/112-0_nl ver:70089372v190 (SYS:70089370v190)" Comment="MC050_110_nl">
+		<SystemFile FileName="70089370v190.sys" Parameters="W1:DISABLE">
+			<APIDocument FileName="70089370.pdf"/>
+		</SystemFile>
+		<Application Name="TREX_GRIMALDI_REVE_30112018_V190NL" Parameters="ModuleConnectionLog:Disabled">
+			<PID Description="CA_TRex_Grimaldi_RevC_16092018_V190nl" Version="RevC" SystemID="CA_TRex"/>
+			<MainModule ModuleName="MAINTASK" FileName="MC050_110_nl_T_MC050_112T.scs"/>
+		</Application>
+		<Output>
+			<Hexfile FileName="TREX_GRIMALDI_REVE_30112018_V190NL.lhx" FileSize="" FileTime=""/>
+			<OutputTargetPartNumber></OutputTargetPartNumber>
+			<OutputTargetSerialNumber></OutputTargetSerialNumber>
+		</Output>
+		<TargetPartNumber></TargetPartNumber>
+	</ProgrammableHW>
+</Project>
